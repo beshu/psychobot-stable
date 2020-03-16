@@ -14,12 +14,12 @@ from aiogram.utils.executor import start_webhook
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = '1036464931:AAHCyvEDv3ahK3rIvBAOxiPiP9t66ap973o'
+API_TOKEN = 'HIDDEN'
 
 bot = Bot(token=API_TOKEN)
 
 # webhook settings
-WEBHOOK_HOST = 'https://obscure-earth-81419.herokuapp.com'
+WEBHOOK_HOST = 'HIDDEN'
 WEBHOOK_PATH = '/' + API_TOKEN
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
